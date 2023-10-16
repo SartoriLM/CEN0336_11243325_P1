@@ -16,7 +16,7 @@ b = str (b)
 #Verificar se os dados reebidos do usuário são do tipo adequado (número interio positivo)
 if not (a.isdigit() and b.isdigit()):
  print ("Os dados inseridos precisam ser números inteiros e positivos")
- sys.exit() # sys.exit() é usado para interromper a execução do script caso os argumentos não atenderem às condições
+ sys.exit() #parar de rodar caso as condições ideas não forem atendidas
 
 #Transformar dados em inteiros
 a = int(a)
